@@ -172,12 +172,19 @@
 }
 
 @media (max-width: 768px) {
+  .projects-section {
+    padding: 48px 0 60px;
+  }
   .projects-inner {
     padding: 0 24px;
   }
+  .projects-header {
+    margin-bottom: 32px;
+  }
   .project-row {
     flex-direction: column;
-    gap: 24px;
+    gap: 20px;
+    padding: 28px 0;
   }
   .project-row-left {
     flex: none;
@@ -186,10 +193,18 @@
   .project-row-right {
     flex-direction: column;
     width: 100%;
+    gap: 16px;
   }
   .project-row-image {
     flex: none;
     width: 100%;
-    height: 200px;
+    height: 180px;
+  }
+  .project-row-name {
+    font-size: 1.2rem;
+  }
+  .project-row-desc {
+    font-size: 0.9rem;
+    margin-bottom: 16px;
   }
 }

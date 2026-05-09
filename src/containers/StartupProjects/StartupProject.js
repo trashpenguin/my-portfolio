@@ -12,7 +12,7 @@ export default function StartupProject() {
   if (!bigProjects.display) return null;
 
   return (
-    <Fade bottom duration={1000} distance="20px">
+    <Fade bottom duration={1000} distance="20px" fraction={0}>
       <div className="projects-section" id="projects">
         <div className="projects-inner">
           {/* Section header */}
