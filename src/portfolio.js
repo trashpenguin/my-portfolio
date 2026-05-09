@@ -140,7 +140,8 @@ const bigProjects = {
       footerLink: []
     },
     {
-      image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg",
+      image:
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg",
       projectName: "VGC Puzzle Trainer",
       projectDesc:
         "A web-based puzzle training app for competitive Pokemon VGC (doubles) players. Mirrors the chess puzzle format — a real game state is frozen at a critical decision point, the player picks the best action, and the system reveals the correct answer with a precise mechanical explanation.",
@@ -170,7 +171,8 @@ const bigProjects = {
       ]
     },
     {
-      image: "https://opengraph.githubassets.com/1/trashpenguin/contractor-search",
+      image:
+        "https://opengraph.githubassets.com/1/trashpenguin/contractor-search",
       projectName: "Contractor Discovery & Enrichment Tool",
       projectDesc:
         "A Python-powered multi-source data aggregation tool that discovers and enriches contractor profiles for HVAC, Electrical, and Excavating businesses across the USA. Automates lead generation through web scraping and data normalization.",
@@ -183,7 +185,8 @@ const bigProjects = {
       ]
     },
     {
-      image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg",
+      image:
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg",
       projectName: "Animated Flower Webpage",
       projectDesc:
         "A creative, interactive webpage built with pure HTML, SCSS, and vanilla JavaScript featuring smooth CSS animations and an elegant visual design — demonstrating front-end craft without relying on any frameworks.",
