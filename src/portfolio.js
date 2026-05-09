@@ -140,6 +140,7 @@ const bigProjects = {
       footerLink: []
     },
     {
+      image: "https://opengraph.githubassets.com/1/Aazirr/vgc-puzzle-trainer",
       projectName: "VGC Puzzle Trainer",
       projectDesc:
         "A web-based puzzle training app for competitive Pokemon VGC (doubles) players. Mirrors the chess puzzle format — a real game state is frozen at a critical decision point, the player picks the best action, and the system reveals the correct answer with a precise mechanical explanation.",
@@ -156,6 +157,7 @@ const bigProjects = {
       ]
     },
     {
+      image: "https://opengraph.githubassets.com/1/trashpenguin/Chess-Engine",
       projectName: "Chess Engine in C",
       projectDesc:
         "A chess engine built from scratch in C/C++, implementing core game logic including move generation, board state management, and 2D rendering. A deep dive into low-level systems programming and algorithmic problem-solving.",
@@ -168,6 +170,7 @@ const bigProjects = {
       ]
     },
     {
+      image: "https://opengraph.githubassets.com/1/trashpenguin/contractor-search",
       projectName: "Contractor Discovery & Enrichment Tool",
       projectDesc:
         "A Python-powered multi-source data aggregation tool that discovers and enriches contractor profiles for HVAC, Electrical, and Excavating businesses across the USA. Automates lead generation through web scraping and data normalization.",
@@ -180,6 +183,7 @@ const bigProjects = {
       ]
     },
     {
+      image: "https://opengraph.githubassets.com/1/trashpenguin/IHaveSomethingForYou",
       projectName: "Animated Flower Webpage",
       projectDesc:
         "A creative, interactive webpage built with pure HTML, SCSS, and vanilla JavaScript featuring smooth CSS animations and an elegant visual design — demonstrating front-end craft without relying on any frameworks.",
@@ -196,6 +200,7 @@ const bigProjects = {
       ]
     },
     {
+      image: "https://opengraph.githubassets.com/1/trashpenguin/EDP",
       projectName: "Event-Driven Programming Final Project",
       projectDesc:
         "A Visual Basic .NET desktop application developed as a final project for an Event-Driven Programming course. Demonstrates event handling, Windows form design, and object-oriented principles in a real coursework context.",
