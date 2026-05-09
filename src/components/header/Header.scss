@@ -69,15 +69,13 @@
   color: #ffffff;
 }
 
-/* Hamburger icon */
-.menu-btn {
-  display: none;
-}
-
+/* Hamburger icon — hidden on desktop, shown on mobile */
 .menu-icon {
   display: none;
   cursor: pointer;
   padding: 10px;
+  background: none;
+  border: none;
 }
 
 .menu-icon .navicon {
@@ -107,14 +105,14 @@
   top: -6px;
 }
 
-.menu-btn:checked ~ .menu-icon .navicon {
+.menu-icon--open .navicon {
   background: transparent;
 }
-.menu-btn:checked ~ .menu-icon .navicon:before {
+.menu-icon--open .navicon:before {
   transform: rotate(-45deg);
   top: 0;
 }
-.menu-btn:checked ~ .menu-icon .navicon:after {
+.menu-icon--open .navicon:after {
   transform: rotate(45deg);
   top: 0;
 }
@@ -129,7 +127,8 @@
   }
 
   .menu-icon {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
   }
 
   .menu {
@@ -139,17 +138,18 @@
     width: 100%;
     flex-direction: column;
     align-items: flex-start;
-    transition: max-height 0.25s ease-out;
+    transition: max-height 0.3s ease-out;
     gap: 0;
   }
 
-  .menu-btn:checked ~ .menu {
+  .menu--open {
     max-height: 400px;
   }
 
   .header li a {
     padding: 12px 0;
     width: 100%;
+    display: block;
   }
 }
 
@@ -157,5 +157,6 @@
   .menu {
     display: flex !important;
     max-height: none !important;
+    overflow: visible !important;
   }
 }

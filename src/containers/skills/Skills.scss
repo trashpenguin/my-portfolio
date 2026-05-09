@@ -85,5 +85,9 @@
   .skills-image-div {
     order: 2;
     width: 100%;
+    min-height: unset;
+  }
+  .sketchfab-embed {
+    height: 260px;
   }
 }

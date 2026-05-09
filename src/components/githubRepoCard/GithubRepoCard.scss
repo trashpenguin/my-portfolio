@@ -93,3 +93,14 @@
   background-color: $buttonColor !important;
   box-shadow: 0px 0px 16px $darkBoxShadow;
 }
+
+@media (max-width: 768px) {
+  .repo-card-div {
+    padding: 1.25rem;
+  }
+  .repo-name {
+    font-size: 18px;
+    height: auto;
+    white-space: normal;
+  }
+}
