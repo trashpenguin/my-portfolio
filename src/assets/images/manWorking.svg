@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 400" fill="none">
+  <!-- Background blob -->
+  <ellipse cx="260" cy="210" rx="210" ry="160" fill="#c9a227" opacity="0.07"/>
+
+  <!-- Desk -->
+  <rect x="80" y="250" width="360" height="14" rx="7" fill="#3a3020"/>
+  <rect x="110" y="264" width="14" height="80" rx="7" fill="#2e2518"/>
+  <rect x="396" y="264" width="14" height="80" rx="7" fill="#2e2518"/>
+
+  <!-- Laptop base -->
+  <rect x="155" y="218" width="180" height="34" rx="6" fill="#2a2a2a"/>
+  <!-- Laptop screen -->
+  <rect x="160" y="130" width="170" height="108" rx="8" fill="#1a1a1a"/>
+  <rect x="168" y="138" width="154" height="92" rx="4" fill="#0d0d0d"/>
+  <!-- Screen hinge -->
+  <rect x="155" y="216" width="180" height="6" rx="3" fill="#222222"/>
+
+  <!-- Code lines on screen -->
+  <rect x="178" y="148" width="60" height="5" rx="2" fill="#c9a227" opacity="0.9"/>
+  <rect x="186" y="160" width="80" height="5" rx="2" fill="#888888" opacity="0.7"/>
+  <rect x="186" y="172" width="50" height="5" rx="2" fill="#888888" opacity="0.5"/>
+  <rect x="178" y="184" width="70" height="5" rx="2" fill="#c9a227" opacity="0.7"/>
+  <rect x="186" y="196" width="90" height="5" rx="2" fill="#888888" opacity="0.5"/>
+  <rect x="186" y="208" width="40" height="5" rx="2" fill="#aaaaaa" opacity="0.4"/>
+
+  <!-- Cursor blink -->
+  <rect x="282" y="208" width="3" height="8" rx="1" fill="#c9a227"/>
+
+  <!-- Chair -->
+  <rect x="210" y="268" width="100" height="12" rx="6" fill="#2e2518"/>
+  <rect x="252" y="280" width="16" height="60" rx="8" fill="#2e2518"/>
+  <!-- Chair back -->
+  <rect x="218" y="210" width="84" height="60" rx="8" fill="#222222"/>
+
+  <!-- Body / torso -->
+  <rect x="228" y="196" width="64" height="72" rx="16" fill="#4a4a5a"/>
+
+  <!-- Shirt collar / accent -->
+  <path d="M252 196 L260 210 L268 196" stroke="#c9a227" stroke-width="2" fill="none" opacity="0.8"/>
+
+  <!-- Head -->
+  <ellipse cx="260" cy="172" rx="30" ry="32" fill="#d4956a"/>
+
+  <!-- Hair -->
+  <path d="M230 162 Q232 138 260 136 Q288 138 290 162 Q285 148 260 146 Q235 148 230 162Z" fill="#3a3020"/>
+
+  <!-- Eyes -->
+  <ellipse cx="249" cy="168" rx="4" ry="4.5" fill="#1a1a1a"/>
+  <ellipse cx="271" cy="168" rx="4" ry="4.5" fill="#1a1a1a"/>
+  <!-- Eye shine -->
+  <circle cx="251" cy="166" r="1.5" fill="#ffffff" opacity="0.8"/>
+  <circle cx="273" cy="166" r="1.5" fill="#ffffff" opacity="0.8"/>
+
+  <!-- Nose -->
+  <path d="M258 174 Q260 178 262 174" stroke="#c07050" stroke-width="1.5" fill="none"/>
+
+  <!-- Slight smile -->
+  <path d="M251 182 Q260 188 269 182" stroke="#c07050" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- Left arm on desk -->
+  <path d="M228 230 Q200 238 185 252" stroke="#4a4a5a" stroke-width="20" stroke-linecap="round" fill="none"/>
+  <!-- Left hand -->
+  <ellipse cx="183" cy="253" rx="10" ry="8" fill="#d4956a"/>
+
+  <!-- Right arm reaching keyboard -->
+  <path d="M292 230 Q320 240 330 252" stroke="#4a4a5a" stroke-width="20" stroke-linecap="round" fill="none"/>
+  <!-- Right hand -->
+  <ellipse cx="332" cy="253" rx="10" ry="8" fill="#d4956a"/>
+
+  <!-- Coffee mug -->
+  <rect x="350" y="228" width="26" height="22" rx="4" fill="#3a3020"/>
+  <path d="M376 235 Q386 235 386 242 Q386 249 376 249" stroke="#3a3020" stroke-width="4" fill="none"/>
+  <rect x="353" y="225" width="20" height="5" rx="2" fill="#2a2018"/>
+  <!-- Steam -->
+  <path d="M358 222 Q360 216 358 210" stroke="#888888" stroke-width="1.5" fill="none" stroke-linecap="round" opacity="0.5"/>
+  <path d="M366 220 Q368 214 366 208" stroke="#888888" stroke-width="1.5" fill="none" stroke-linecap="round" opacity="0.5"/>
+
+  <!-- Small plant -->
+  <rect x="106" y="232" width="14" height="20" rx="3" fill="#2e2518"/>
+  <ellipse cx="113" cy="225" rx="12" ry="10" fill="#3a5a30"/>
+  <ellipse cx="104" cy="230" rx="9" ry="7" fill="#2e4a28"/>
+  <ellipse cx="122" cy="229" rx="9" ry="7" fill="#2e4a28"/>
+  <path d="M113 235 L113 215" stroke="#2a3a20" stroke-width="2"/>
+
+  <!-- Floating code snippets (decorative) -->
+  <rect x="60" y="150" width="50" height="6" rx="3" fill="#c9a227" opacity="0.2"/>
+  <rect x="60" y="162" width="36" height="6" rx="3" fill="#c9a227" opacity="0.12"/>
+  <rect x="420" y="160" width="44" height="6" rx="3" fill="#c9a227" opacity="0.2"/>
+  <rect x="428" y="172" width="30" height="6" rx="3" fill="#c9a227" opacity="0.12"/>
+
+  <!-- Amber glow under laptop screen -->
+  <ellipse cx="245" cy="220" rx="70" ry="6" fill="#c9a227" opacity="0.06"/>
+</svg>

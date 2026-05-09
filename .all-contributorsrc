@@ -1,0 +1,27 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "trashpenguin",
+      "name": "Francis Nino Moncada",
+      "avatar_url": "https://avatars.githubusercontent.com/u/trashpenguin?v=4",
+      "profile": "https://trashpenguin.github.io/my-portfolio",
+      "contributions": [
+        "code",
+        "design",
+        "ideas"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "my-portfolio",
+  "projectOwner": "trashpenguin",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true,
+  "commitConvention": "angular"
+}

@@ -1,0 +1,125 @@
+@import "../_globalColor";
+
+/* ── Dark mode (default) ── */
+.dark-mode {
+  background-color: #0d0d0d;
+  color: #ffffff;
+  min-height: 100vh;
+}
+
+/* ── Light mode ── */
+.light-mode {
+  background-color: #ffffff;
+  color: #111111;
+  min-height: 100vh;
+}
+
+/* Light mode overrides for key surfaces */
+.light-mode .header {
+  background-color: #ffffff !important;
+  border-bottom-color: rgba(0, 0, 0, 0.08) !important;
+}
+
+.light-mode .logo-name {
+  color: #111111 !important;
+  background: none !important;
+  -webkit-text-fill-color: #111111 !important;
+}
+
+.light-mode .header li a {
+  color: #555555 !important;
+}
+
+.light-mode .header li a:hover {
+  color: #111111 !important;
+}
+
+.light-mode .theme-toggle {
+  color: #555555 !important;
+  border-color: rgba(0, 0, 0, 0.2) !important;
+}
+
+.light-mode .theme-toggle:hover {
+  color: #111111 !important;
+  border-color: #111111 !important;
+}
+
+.light-mode .greeting-text {
+  color: #111111 !important;
+}
+
+.light-mode .greeting-label {
+  color: $buttonColor;
+}
+
+.light-mode .greeting-resume-link {
+  color: #111111 !important;
+  border-color: rgba(0, 0, 0, 0.3) !important;
+}
+
+.light-mode .projects-title,
+.light-mode .experience-title,
+.light-mode .achievement-heading,
+.light-mode .skills-heading {
+  color: #111111 !important;
+}
+
+.light-mode .projects-divider,
+.light-mode .experience-divider,
+.light-mode .contact-top-divider {
+  background: rgba(0, 0, 0, 0.1) !important;
+}
+
+.light-mode .project-row-divider,
+.light-mode .experience-row-divider {
+  background: rgba(0, 0, 0, 0.06) !important;
+}
+
+.light-mode .project-row-name,
+.light-mode .experience-company {
+  color: #111111 !important;
+}
+
+.light-mode .project-row-desc,
+.light-mode .project-row-tag,
+.light-mode .experience-desc,
+.light-mode .experience-date,
+.light-mode .contact-subtitle {
+  color: #555555 !important;
+}
+
+.light-mode .project-row-tag {
+  border-color: rgba(0, 0, 0, 0.15) !important;
+}
+
+.light-mode .project-row-link {
+  color: #111111 !important;
+  border-color: rgba(0, 0, 0, 0.3) !important;
+}
+
+.light-mode .experience-logo-wrap {
+  background: #f5f5f5 !important;
+  border-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+.light-mode .certificate-card {
+  background-color: #f8f8f8 !important;
+  border-color: rgba(0, 0, 0, 0.08) !important;
+}
+
+.light-mode .card-title {
+  color: #111111 !important;
+}
+
+.light-mode .card-subtitle {
+  color: #555555 !important;
+}
+
+.light-mode .main-button {
+  border-color: rgba(0, 0, 0, 0.3) !important;
+  color: #111111 !important;
+}
+
+.light-mode .footer-text {
+  color: #555555 !important;
+}

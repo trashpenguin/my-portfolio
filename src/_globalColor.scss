@@ -1,0 +1,88 @@
+/* Figma-matched dark portfolio palette */
+
+// button colors
+$buttonColor: #c9a227;
+$buttonHover: #e5b92e;
+$topButtonHover: #c9a227;
+
+// text colors
+$titleColor: #ffffff;
+$textColor: #ffffff;
+$subTitle: #888888;
+$cardSubtitle: #aaaaaa;
+$talkCardSubTitle: #888888;
+$blogCardTitleColor: #ffffff;
+
+// text color dark theme
+$textColorDark: #ffffff;
+
+// toggle switch colors
+$toggleCheck: #c9a227;
+$toggleSwitchSliderBG: #444444;
+
+// githubRepo specific colors
+$githubRepoCardLanguageColorBG: #c9a227;
+$githubRepoCardColor: #aaaaaa;
+$githubRepoCardRepoCardStatsColor: #888888;
+$githubRepoCardRepoNameColor: #ffffff;
+$githubProfileCardLocationTS: #fef3c7;
+$githubProfileCardBorder: #333333;
+
+// backgrounds
+$lightBackground1: #0d0d0d;
+$lightBackground2: #111111;
+$lightBackground3: #161616;
+$blogCardContainerColor: #888888;
+
+// dark background
+$darkBackground: #0d0d0d;
+
+// shadows
+$lightBoxShadowDark: rgba(0, 0, 0, 0.6);
+$lightBoxShadow: rgba(0, 0, 0, 0.4);
+$lightBoxShadowDarker: rgba(0, 0, 0, 0.7);
+
+$darkBoxShadow: rgba(0, 0, 0, 0.5);
+$darkBoxShadow2: #ffffff;
+
+// linear gradients
+$experienceCardBlurredDivLG: linear-gradient(
+  rgba(0, 0, 0, 0.5),
+  rgba(0, 0, 0, 0.3)
+);
+$experienceCardBannerLG: linear-gradient(
+  rgba(0, 0, 0, 0.8),
+  rgba(0, 0, 0, 0.6)
+);
+
+// borders
+$progressBarBackground: rgba(255, 255, 255, 0.06);
+$lightBorder1: rgba(255, 255, 255, 0.08);
+$educationCardBorder: #c9a227;
+
+// hovers
+$achievementCertificateCardHoverDark: rgba(201, 162, 39, 0.15);
+$blogCardHoverSmallColor: rgba(255, 255, 255, 0.05);
+$headerHoverBG: rgba(255, 255, 255, 0.05);
+$contactDetailHoverTS: #c9a227;
+
+// misc backgrounds
+$progressBarSpanBG: #c9a227;
+$iconBackground: #c9a227;
+$appHeaderBG: #0d0d0d;
+
+// misc colors
+$skillsColor: #c9a227;
+$appLink: #c9a227;
+
+// social media icons
+$faceBook: #ffffff;
+$linkedin: #ffffff;
+$github: #ffffff;
+$gitlab: #ffffff;
+$google: #ffffff;
+$twitter: #ffffff;
+$medium: #ffffff;
+$stackoverflow: #ffffff;
+$instagram: #ffffff;
+$kaggle: #ffffff;

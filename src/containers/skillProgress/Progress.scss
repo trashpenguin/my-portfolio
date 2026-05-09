@@ -1,0 +1,67 @@
+@import "../../_globalColor";
+
+.skills-container {
+  max-width: 1216px;
+  margin: 0 auto;
+  padding: 20px 112px 60px;
+}
+
+.skills-bar {
+  max-width: 640px;
+}
+
+.skills-bar h1 {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 0 0 32px 0;
+}
+
+.light-mode .skills-bar h1 {
+  color: #111111;
+}
+
+.skill {
+  margin-bottom: 24px;
+}
+
+.skill > p {
+  font-size: 0.875rem;
+  color: #888888;
+  margin: 0 0 8px 0;
+}
+
+.meter {
+  height: 4px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.light-mode .meter {
+  background: rgba(0, 0, 0, 0.08);
+}
+
+.meter > span {
+  display: block;
+  height: 100%;
+  background-color: $progressBarSpanBG;
+  border-radius: 4px;
+}
+
+@media (max-width: 1024px) {
+  .skills-container {
+    padding: 20px 48px 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .skills-container {
+    padding: 20px 24px 40px;
+  }
+  .skills-bar {
+    max-width: 100%;
+  }
+}

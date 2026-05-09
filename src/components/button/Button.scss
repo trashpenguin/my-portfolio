@@ -1,0 +1,46 @@
+@import "../../_globalColor";
+
+/* ── Outlined CTA button (Figma style) ── */
+.main-button {
+  display: inline-block;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 0.9rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 12px 28px;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  width: max-content;
+  margin-top: 0;
+  margin-right: 0;
+}
+
+.main-button:hover {
+  background: $buttonColor;
+  border-color: $buttonColor;
+  color: #0d0d0d;
+  transform: translateY(-2px);
+}
+
+.project-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.project-button > .main-button {
+  margin-right: 0;
+}
+
+@media (max-width: 768px) {
+  .main-button {
+    font-size: 0.85rem;
+    padding: 10px 20px;
+  }
+}

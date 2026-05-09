@@ -1,0 +1,49 @@
+@import "../../_globalColor";
+
+.achievement-main-div {
+  max-width: 1216px;
+  margin: 0 auto;
+  padding: 80px 112px 60px;
+}
+
+.achievement-header {
+  margin-bottom: 48px;
+}
+
+.achievement-heading {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 0 0 12px 0;
+}
+
+.achievement-subtitle {
+  font-size: 0.9rem;
+  color: #888888;
+  margin: 0 0 24px 0;
+  line-height: 1.6;
+}
+
+.subTitle {
+  color: $subTitle;
+}
+
+@media (max-width: 1024px) {
+  .achievement-main-div {
+    padding: 60px 48px 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .achievement-main-div {
+    padding: 40px 24px;
+  }
+  .achievement-heading {
+    text-align: center;
+  }
+  .achievement-subtitle {
+    text-align: center;
+  }
+}
