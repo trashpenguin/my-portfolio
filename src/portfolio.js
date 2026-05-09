@@ -140,7 +140,7 @@ const bigProjects = {
       footerLink: []
     },
     {
-      image: "https://opengraph.githubassets.com/1/Aazirr/vgc-puzzle-trainer",
+      image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg",
       projectName: "VGC Puzzle Trainer",
       projectDesc:
         "A web-based puzzle training app for competitive Pokemon VGC (doubles) players. Mirrors the chess puzzle format — a real game state is frozen at a critical decision point, the player picks the best action, and the system reveals the correct answer with a precise mechanical explanation.",
@@ -183,7 +183,7 @@ const bigProjects = {
       ]
     },
     {
-      image: "https://opengraph.githubassets.com/1/trashpenguin/IHaveSomethingForYou",
+      image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg",
       projectName: "Animated Flower Webpage",
       projectDesc:
         "A creative, interactive webpage built with pure HTML, SCSS, and vanilla JavaScript featuring smooth CSS animations and an elegant visual design — demonstrating front-end craft without relying on any frameworks.",
