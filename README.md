@@ -1,4 +1,4 @@
-# Francis Nino Moncada — Developer Portfolio
+# Developer Portfolio
 
 A personal portfolio website built with React and SCSS, featuring a dark amber-themed design. Showcases projects, skills, work experience, and certifications.
 
