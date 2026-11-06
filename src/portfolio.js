@@ -1,6 +1,7 @@
 /* Change this file to get your personal Portfolio */
 
 import splashAnimation from "./assets/lottie/splashAnimation";
+import resume from "./containers/greeting/resume.pdf";
 
 // Splash Screen
 const splashScreen = {
@@ -17,8 +18,7 @@ const greeting = {
   title: "Francis Nino Moncada",
   subTitle:
     "I am a cybersecurity-focused IT professional who builds practical software, from Windows terminal music players to browser tools and data pipelines. My work brings together system administration, security, and hands-on development.",
-  resumeLink:
-    "https://drive.google.com/file/d/1lCKr1faBLtl3HHKNKPrYg5XrffTFi5e-/view?usp=sharing",
+  resumeLink: resume,
   displayGreeting: true
 };
 
@@ -385,3 +385,4 @@ export {
   isHireable,
   resumeSection
 };
+
