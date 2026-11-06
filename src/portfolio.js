@@ -16,7 +16,7 @@ const greeting = {
   username: "Francis.",
   title: "Francis Nino Moncada",
   subTitle:
-    "I am a cybersecurity-focused IT professional who secures systems, builds practical tools, and approaches every project with a security-first mindset. I have hands-on experience spanning security analysis, system administration, and full-stack development.",
+    "I am a cybersecurity-focused IT professional who builds practical software, from Windows terminal music players to browser tools and data pipelines. My work brings together system administration, security, and hands-on development.",
   resumeLink:
     "https://drive.google.com/file/d/1lCKr1faBLtl3HHKNKPrYg5XrffTFi5e-/view?usp=sharing",
   displayGreeting: true
@@ -38,7 +38,7 @@ const skillsSection = {
     "Cybersecurity-oriented IT professional with hands-on experience in security analysis, systems programming, and data tooling",
   skills: [
     "Assess and mitigate security vulnerabilities across systems and networks",
-    "Build web applications, desktop systems, and automation tools from scratch",
+    "Build terminal music players, web applications, and automation tools",
     "Aggregate and enrich data through scripting, APIs, and multi-source pipelines",
     "Design professional graphics and documents for events and organizational use"
   ],
@@ -50,6 +50,8 @@ const skillsSection = {
     {skillName: "ReactJS", fontAwesomeClassname: "fab fa-react"},
     {skillName: "Node.js", fontAwesomeClassname: "fab fa-node"},
     {skillName: "Python", fontAwesomeClassname: "fab fa-python"},
+    {skillName: "Go", fontAwesomeClassname: "fas fa-terminal"},
+    {skillName: "Rust", fontAwesomeClassname: "fas fa-cogs"},
     {skillName: "SQL", fontAwesomeClassname: "fas fa-database"},
     {skillName: "Linux", fontAwesomeClassname: "fab fa-linux"},
     {skillName: "Git", fontAwesomeClassname: "fab fa-git-alt"},
@@ -100,7 +102,7 @@ const workExperiences = {
       company: "Optum",
       companylogo: require("./assets/images/optumLogo.png"),
       date: "November 2024 — August 2025",
-      desc: "Handle complex customer inquiries in a high-volume healthcare environment. Apply strong communication, analytical, and problem-solving skills while adhering to strict data privacy and compliance protocols."
+      desc: "Handled complex customer inquiries in a high-volume healthcare environment. Applied communication, analytical, and problem-solving skills while adhering to data privacy and compliance protocols."
     },
     {
       role: "IT Intern",
@@ -127,10 +129,49 @@ const openSource = {
 
 // Big Projects
 const bigProjects = {
-  title: "Best projects",
+  title: "Selected projects",
   subtitle:
-    "A selection of projects I have built — spanning web, systems programming, and data tooling",
+    "Terminal music players, browser experiments, and practical tools for everyday work",
   projects: [
+    {
+      image: "https://opengraph.githubassets.com/1/trashpenguin/pomme-tui",
+      projectName: "Pomme TUI",
+      projectDesc:
+        "An unofficial Apple Music player for the Windows terminal, with native playback, synced lyrics, library browsing, listening stats, and visualizers. Available as a Windows prerelease; an Apple Music subscription is required.",
+      technologies: ["Go", "Rust", "Windows", "Terminal UI"],
+      footerLink: [
+        {name: "GitHub", url: "https://github.com/trashpenguin/pomme-tui"},
+        {
+          name: "Releases",
+          url: "https://github.com/trashpenguin/pomme-tui/releases"
+        }
+      ]
+    },
+    {
+      image: "https://opengraph.githubassets.com/1/trashpenguin/lime-tui",
+      projectName: "Lime TUI",
+      projectDesc:
+        "A Spotify terminal player for Windows with native playback, playlists, queue controls, timed lyrics, and nine live visualizer styles. An independent preview project built with Go and Rust; Spotify Premium is required.",
+      technologies: ["Go", "Rust", "Windows", "Terminal UI"],
+      footerLink: [
+        {name: "GitHub", url: "https://github.com/trashpenguin/lime-tui"},
+        {
+          name: "Releases",
+          url: "https://github.com/trashpenguin/lime-tui/releases"
+        }
+      ]
+    },
+    {
+      image: "https://opengraph.githubassets.com/1/trashpenguin/orbit-hub",
+      projectName: "Orbit HUB",
+      projectDesc:
+        "An install-free browser prototype for local mouse profiles, DPI control, and limited Logitech RGB lighting through WebHID. Profiles stay in the browser. Hardware support is experimental and device-specific; desktop Chrome or Edge is required.",
+      technologies: ["JavaScript", "WebHID", "HTML", "CSS"],
+      footerLink: [
+        {name: "Public Test", url: "https://trashpenguin.github.io/orbit-hub/"},
+        {name: "GitHub", url: "https://github.com/trashpenguin/orbit-hub"}
+      ]
+    },
     {
       image: require("./assets/images/osm.png"),
       projectName: "Online School Management System",
@@ -161,8 +202,8 @@ const bigProjects = {
       image: "https://opengraph.githubassets.com/1/trashpenguin/Chess-Engine",
       projectName: "Chess Engine in C",
       projectDesc:
-        "A chess engine built from scratch in C/C++, implementing core game logic including move generation, board state management, and 2D rendering. A deep dive into low-level systems programming and algorithmic problem-solving.",
-      technologies: ["C", "C++"],
+        "A UCI chess engine in C with legal move generation, FEN parsing, iterative-deepening alpha-beta search, and positional evaluation. Connects to UCI-compatible chess interfaces for play and analysis.",
+      technologies: ["C", "UCI", "Algorithms"],
       footerLink: [
         {
           name: "GitHub",

@@ -2,7 +2,7 @@
 
 A personal portfolio website built with React and SCSS, featuring a dark amber-themed design. Showcases projects, skills, work experience, and certifications.
 
-**Live site:** [trashpenguin.github.io/developerFolio](https://trashpenguin.github.io/developerFolio)
+**Live site:** [trashpenguin.github.io/my-portfolio](https://trashpenguin.github.io/my-portfolio/)
 
 ---
 
@@ -14,25 +14,28 @@ Cybersecurity-focused IT professional with hands-on experience in security analy
 
 ## Tech Stack
 
-| Layer | Tools |
-| --- | --- |
-| Framework | React (Create React App) |
-| Styling | SCSS, Font Awesome |
-| Animations | react-reveal, Lottie |
+| Layer      | Tools                     |
+| ---------- | ------------------------- |
+| Framework  | React (Create React App)  |
+| Styling    | SCSS, Font Awesome        |
+| Animations | react-reveal, Lottie      |
 | Deployment | GitHub Pages (`gh-pages`) |
 
 ---
 
 ## Projects
 
-| Project | Technologies |
-| --- | --- |
-| Online School Management System | PHP, MySQL, JavaScript |
-| VGC Puzzle Trainer | TypeScript, React |
-| Chess Engine in C | C, C++ |
-| Contractor Discovery & Enrichment Tool | Python, Web Scraping, APIs |
-| Animated Flower Webpage | HTML, SCSS, JavaScript |
-| Event-Driven Programming Final Project | VB.NET, Windows Forms |
+| Project                                                | Technologies                  |
+| ------------------------------------------------------ | ----------------------------- |
+| [Pomme TUI](https://github.com/trashpenguin/pomme-tui) | Go, Rust, Windows terminal UI |
+| [Lime TUI](https://github.com/trashpenguin/lime-tui)   | Go, Rust, Windows terminal UI |
+| [Orbit HUB](https://github.com/trashpenguin/orbit-hub) | JavaScript, WebHID, HTML, CSS |
+| Online School Management System                        | PHP, MySQL, JavaScript        |
+| VGC Puzzle Trainer                                     | TypeScript, React             |
+| Chess Engine in C                                      | C, UCI, Algorithms            |
+| Contractor Discovery & Enrichment Tool                 | Python, Web Scraping, APIs    |
+| Animated Flower Webpage                                | HTML, SCSS, JavaScript        |
+| Event-Driven Programming Final Project                 | VB.NET, Windows Forms         |
 
 ---
 
@@ -50,9 +53,9 @@ Cybersecurity-focused IT professional with hands-on experience in security analy
 ## Run Locally
 
 ```bash
-git clone https://github.com/trashpenguin/developerFolio.git
-cd developerFolio
-npm install
+git clone https://github.com/trashpenguin/my-portfolio.git
+cd my-portfolio
+npm ci
 npx react-scripts start
 ```
 
@@ -80,6 +83,10 @@ To toggle a section on/off, set `display: false` on the relevant object.
 ---
 
 ## Deploy
+
+Pushes to `main` build and deploy to GitHub Pages through the **Build and Deploy** workflow. The workflow can also be run manually from GitHub Actions. It uses Node.js 22 and installs dependencies from the lockfile with `npm ci`.
+
+To deploy from your own authenticated local checkout:
 
 ```bash
 npm run deploy
